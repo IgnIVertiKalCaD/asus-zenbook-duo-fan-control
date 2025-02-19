@@ -7,7 +7,12 @@ This bash script allows you to switch between Turbo and auto cooling modes on yo
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ____
+Who doesn't know, since linux 6.6 (I don't remember), asus-wmi is built into the kernel, but zenbook support came later. Check 
+```
+/sys/class/leds/asus::screenpad/
 
+```
+____
 ## Currently tested with
 
 |  ZenBook Duo |
